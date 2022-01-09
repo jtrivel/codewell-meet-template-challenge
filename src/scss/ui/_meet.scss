@@ -1,0 +1,186 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.meet {
+  position: relative;
+  padding: 2rem 0;
+  max-width: 37.5rem;
+  width: 95%;
+  @include m.tablet {
+    max-width: 76.8rem;
+  }
+  @include m.desktop {
+    max-width: 102.4rem;
+    margin-top: 10rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  &__logo {
+    width: 14rem;
+  }
+
+  &__heading {
+    font-family: v.$secondaryFont;
+    line-height: 1.1;
+    color: v.$primaryColor;
+    font-size: 5rem;
+    margin-top: 15rem;
+    @include m.tablet {
+      font-size: 10rem;
+    }
+    @include m.desktop {
+      font-size: 14rem;
+      margin-top: 10rem;
+    }
+  }
+
+  &__subheading {
+    margin-top: 2rem;
+    @include m.tablet {
+      font-size: 2.3rem;
+      max-width: 70%;
+    }
+    @include m.desktop {
+      max-width: 50%;
+    }
+  }
+
+  &__n {
+    @include m.desktop {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  &__btn {
+    text-decoration: none;
+    background-color: v.$primaryColor;
+    color: v.$mainBg;
+    font-family: v.$secondaryFont;
+    font-weight: 700;
+    padding: 1.2rem 2rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    @include m.tablet {
+      padding: 1.5rem 2rem;
+      font-size: 2.2rem;
+    }
+  }
+
+  &__user1 {
+    display: none;
+    @include m.tablet {
+      z-index: -1;
+      position: absolute;
+      display: block;
+      right: 0;
+      bottom: 45%;
+    }
+    @include m.desktop {
+      bottom: 25%;
+      right: -2%;
+    }
+  }
+
+  &__user2 {
+    position: absolute;
+    top: 17%;
+    right: -1%;
+    z-index: -1;
+    @include m.tablet {
+      top: 2%;
+    }
+    @include m.desktop {
+      top: 20%;
+      right: 1%;
+    }
+  }
+
+  &__user3 {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    z-index: -1;
+    @include m.tablet {
+      top: 12%;
+      left: 5%;
+    }
+    @include m.desktop {
+      top: 22%;
+      left: -10%;
+    }
+  }
+
+  &__user4 {
+    display: none;
+    @include m.tablet {
+      z-index: -1;
+      position: absolute;
+      display: block;
+      right: 8%;
+    }
+    @include m.desktop {
+      bottom: -25%;
+      right: -1%;
+    }
+  }
+
+  &__user5 {
+    display: none;
+    @include m.tablet {
+      z-index: -1;
+      position: absolute;
+      display: block;
+      top: 25%;
+      right: 20%;
+    }
+  }
+
+  &__user6 {
+    position: absolute;
+    max-width: 17rem;
+    border-radius: 50%;
+    bottom: -22%;
+    right: -1%;
+    z-index: -1;
+    @include m.tablet {
+      right: 13%;
+      bottom: auto;
+      top: 62%;
+    }
+    @include m.desktop {
+      z-index: 0;
+      max-width: 13rem;
+      top: 61%;
+      right: 34%;
+    }
+  }
+
+  &__footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    bottom: -40%;
+    @include m.desktop {
+      bottom: -15%;
+    }
+  }
+
+  &__socials {
+    @include m.tablet {
+      font-size: 2.2rem;
+    }
+  }
+
+  &__icon {
+    width: 4rem;
+  }
+}

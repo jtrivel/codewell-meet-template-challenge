@@ -1,0 +1,30 @@
+@use 'variables' as v ;
+@use 'mixins' as m ;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: v.$primaryFont;
+  font-size: 1.8rem;
+  color: v.$gray;
+  background-color: v.$mainBg;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 140rem;
+  width: 95%;
+  margin-inline: auto;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
