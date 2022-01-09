@@ -1,6 +1,6 @@
 # Codwell - Meeet Waitlist Template
 
-This is a solution to the [Meeet Waitlist challenge on Codewell.cc](https://www.codewell.cc/challenges/meeet-waitlist-template--60e05defa383e41090a3c273). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Meeet Waitlist challenge on Codewell.cc](https://www.codewell.cc/challenges/meeet-waitlist-template--60e05defa383e41090a3c273).
 
 ## Overview
 
@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.codewell.cc/challenges/web-developer-portfolio--617d4897a383e41090a3e46f/solution/61da90b26da8ba3fac6b00dd)
-- Live Site URL: [Live Site URL](https://codwell-webdeveloper-challenge.netlify.app/)
+- Solution URL: [Solution URL](https://www.codewell.cc/challenges/meeet-waitlist-template--60e05defa383e41090a3c273/solution/61db4e056da8ba3fac6b0141)
+- Live Site URL: [Live Site URL](https://codewell-meet-template-challenge.netlify.app/)
 
 ### Built with
 - SASS
